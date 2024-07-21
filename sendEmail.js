@@ -8,7 +8,7 @@ const sendEmail = async (type,data) => {
     service: 'gmail',
     auth: {
       user: 'karinternationalinfotech@gmail.com', // Your Gmail address
-      pass: 'IloveKAR@006'   // Your Gmail password
+      pass: 'wkve wwnk gyci nlig'   // Your Gmail password
     }
   });
 
