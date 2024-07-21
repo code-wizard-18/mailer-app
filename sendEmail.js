@@ -7,23 +7,17 @@ const sendEmail = async (type) => {
   let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'nithishkuma8123@gmail.com', // Your Gmail address
-      pass: 'oxyk kuid bjvy hxwb'   // Your Gmail password
+      user: 'karinternationalinfotech@gmail.com', // Your Gmail address
+      pass: 'IloveKAR@006'   // Your Gmail password
     }
   });
 
-  let formData = {
-    name: 'Nithish Kumar',
-    email: 'nithishkuma8123@gmail',
-    phone: '1234567890',
-    subject: type === 'enquiry' ? 'Enquiry About [Software/Product Name]' : 'New Customer Inquiry Received',
-    message: 'This is a test email.'
-  }
+  let formData = request.body
 
   // Set up email data
   let mailOptions = {
     from: 'nithishkuma8123@gmail.com',          // Sender address
-    to: "nithishkuma8123@gmail.com",                    // List of receivers
+    to: formData.email,                    // List of receivers
     subject: `Enquiry Submission: ${formData.subject}`, // Subject line
     html: type === 'enquiry' ? enquiryTemplate(formData) : adminTemplate(formData)
   };

@@ -222,7 +222,7 @@ const adminTemplate = (formData) => {
                             <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Cabin',sans-serif;" align="left">
 
                               <div style="font-size: 18px; color: #2b2a2a; line-height: 140%; text-align: left; word-wrap: break-word;">
-                                <p style="line-height: 140%;">Hi [Admin’s Name],</p>
+                                <p style="line-height: 140%;">Hi Karthikeyan,</p>
                               </div>
 
                             </td>
@@ -327,14 +327,14 @@ const adminTemplate = (formData) => {
                               <div style="font-size: 16px; line-height: 140%; text-align: left; word-wrap: break-word;">
                                 <p style="line-height: 140%;"><strong>Customer Details:</strong></p>
                                 <ul>
-                                  <li style="line-height: 22.4px;"><strong>Name:</strong> [Customer's Name]</li>
-                                  <li style="line-height: 22.4px;"><strong>Email:</strong> [Customer's Email]</li>
-                                  <li style="line-height: 22.4px;"><strong>Phone Number:</strong> [Customer's Phone Number]</li>
+                                  <li style="line-height: 22.4px;"><strong>Name:</strong> ${name}</li>
+                                  <li style="line-height: 22.4px;"><strong>Email:</strong> ${email}</li>
+                                  <li style="line-height: 22.4px;"><strong>Phone Number:</strong> ${phone}</li>
                                 </ul>
                                 <p style="line-height: 140%;"><strong>Inquiry Details:</strong></p>
                                 <ul>
-                                  <li style="line-height: 22.4px;"><strong>Subject:</strong> [Subject of the Inquiry]</li>
-                                  <li style="line-height: 22.4px;"><strong>Message: </strong>[Message]</li>
+                                  <li style="line-height: 22.4px;"><strong>Subject:</strong> ${subject}</li>
+                                  <li style="line-height: 22.4px;"><strong>Message: </strong>${message}</li>
                                 </ul>
                               </div>
 

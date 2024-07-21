@@ -222,7 +222,7 @@ const enquiryTemplate = (formData) => {
                             <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Cabin',sans-serif;" align="left">
 
                               <div style="font-size: 18px; color: #2b2a2a; line-height: 140%; text-align: left; word-wrap: break-word;">
-                                <p style="line-height: 140%;">Hi [Recipient's Name],</p>
+                                <p style="line-height: 140%;">Hi ${name},</p>
                               </div>
 
                             </td>
@@ -263,7 +263,7 @@ const enquiryTemplate = (formData) => {
                             <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Cabin',sans-serif;" align="left">
 
                               <div style="font-size: 16px; color: #2b2a2a; line-height: 140%; text-align: left; word-wrap: break-word;">
-                                <p style="line-height: 140%;">Thank you for reaching out to us at [Your Company Name]. We appreciate your interest in [Software/Product Name].</p>
+                                <p style="line-height: 140%;">Thank you for reaching out to us at Kar international Info tech
                               </div>
 
                             </td>
@@ -328,9 +328,8 @@ const enquiryTemplate = (formData) => {
                                 <p style="line-height: 140%;"><strong>We're excited to share more about how our solution can help you.</strong></p>
                                 <p style="line-height: 140%;">Here’s a brief overview of what we offer:</p>
                                 <ul>
-                                  <li style="line-height: 22.4px;"><strong>[Feature 1]:</strong> [Brief Description]</li>
-                                  <li style="line-height: 22.4px;"><strong>[Feature 2]:</strong> [Brief Description]</li>
-                                  <li style="line-height: 22.4px;"><strong>[Feature 3]:</strong> [Brief Description]</li>
+                                  <li style="line-height: 22.4px;"><strong>SEO Optimization:</strong> Our SEO optimization services ensure that your website ranks higher in search engine results, driving more organic traffic to your site and increasing your online visibility.</li>
+                                  <li style="line-height: 22.4px;"><strong>Responsive Design:</strong> We create responsive website designs that provide an optimal viewing experience across all devices, ensuring that your site looks great and functions perfectly on desktops, tablets, and smartphones.</li>
                                 </ul>
                                 <p style="line-height: 140%;">To better assist you, could you please provide a bit more information about your needs and requirements? This will help us tailor our response to suit your specific situation.</p>
                                 <ol>
@@ -342,14 +341,18 @@ const enquiryTemplate = (formData) => {
                                 <p style="line-height: 140%;">If you’d prefer, we can also schedule a call or a demo at your convenience to discuss your needs in detail. Please let us know your preferred date and time.</p>
                                 <p style="line-height: 140%;"><strong>Here’s how you can reach us:</strong></p>
                                 <ul>
-                                  <li style="line-height: 22.4px;"><strong>Email:</strong> [Your Support Email]</li>
-                                  <li style="line-height: 22.4px;"><strong>Phone:</strong> [Your Support Phone Number]</li>
-                                  <li style="line-height: 22.4px;"><strong>Website:</strong> [Your Website URL]</li>
+                                  <li style="line-height: 22.4px;"><strong>Email:</strong> ${email}</li>
+                                  <li style="line-height: 22.4px;"><strong>Phone:</strong> ${phone}</li>
                                 </ul>
-                                <p style="line-height: 140%;">In the meantime, feel free to explore our <a href="#" rel="noreferrer">website</a> for more information about our products and services.</p>
+                                <p style="line-height: 140%;">In the meantime, feel free to explore our <a href="https://businessinfo.karinternationalinfotech.com/" rel="noreferrer">website</a> for more information about our products and services.</p>
                                 <p style="line-height: 140%;">Looking forward to hearing from you!</p>
                                 <p style="line-height: 140%;">Best regards,</p>
-                                <p style="line-height: 140%;">[Your Name]<br>[Your Position]<br>[Your Company Name]<br>[Your Contact Information]<br>[Company Address]</p>
+                                <p style="line-height: 140%;">Karthikeyan <br>[Your Position]<br>KAR International InfoTech<br>Email : 
+									karinternationalinfotech@gmail.com <br>
+                  +91 9789 77 5806<br>
+                  
+6th St, Rajiv Nagar,
+Kovilpatti, Tamil Nadu 628501, India</p>
                               </div>
 
                             </td>
