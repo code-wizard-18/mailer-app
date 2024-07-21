@@ -347,7 +347,7 @@ const enquiryTemplate = (formData) => {
                                 <p style="line-height: 140%;">In the meantime, feel free to explore our <a href="https://businessinfo.karinternationalinfotech.com/" rel="noreferrer">website</a> for more information about our products and services.</p>
                                 <p style="line-height: 140%;">Looking forward to hearing from you!</p>
                                 <p style="line-height: 140%;">Best regards,</p>
-                                <p style="line-height: 140%;">Karthikeyan <br>[Your Position]<br>KAR International InfoTech<br>Email : 
+                                <p style="line-height: 140%;">Karthikeyan <br>Marketing and Sales<br>KAR International InfoTech<br>Email : 
 									karinternationalinfotech@gmail.com <br>
                   +91 9789 77 5806<br>
                   
