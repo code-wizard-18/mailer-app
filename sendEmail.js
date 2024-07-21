@@ -13,11 +13,17 @@ const sendEmail = async (type,data) => {
   });
 
   let formData = data
-
+  let email;
+  if(type === 'enquiry'){
+    email = formData.email
+  }
+  else if(type === 'admin'){
+    email = 'karinternationalinfotech@gmail.com'
+  }
   // Set up email data
   let mailOptions = {
     from: 'karinternationalinfotech@gmail.com',          // Sender address
-    to: type !== 'enquiry' ? 'karinternationalinfotech@gmail.com' : formData.email,                    // List of receivers
+    to: email,                   // List of receivers
     subject: `Enquiry Submission: ${formData.subject}`, // Subject line
     html: type === 'enquiry' ? enquiryTemplate(formData) : adminTemplate(formData)
   };
