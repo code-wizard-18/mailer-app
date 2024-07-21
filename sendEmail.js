@@ -16,7 +16,7 @@ const sendEmail = async (type,data) => {
 
   // Set up email data
   let mailOptions = {
-    from: 'nithishkuma8123@gmail.com',          // Sender address
+    from: 'karinternationalinfotech@gmail.com',          // Sender address
     to: formData.email,                    // List of receivers
     subject: `Enquiry Submission: ${formData.subject}`, // Subject line
     html: type === 'enquiry' ? enquiryTemplate(formData) : adminTemplate(formData)
