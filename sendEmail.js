@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 const { enquiryTemplate } = require('./enquiryTemplate');
 const { adminTemplate } = require('./adminTemplate');
 
-const sendEmail = async (type) => {
+const sendEmail = async (type,data) => {
   // Create a transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -12,7 +12,7 @@ const sendEmail = async (type) => {
     }
   });
 
-  let formData = request.body
+  let formData = data
 
   // Set up email data
   let mailOptions = {

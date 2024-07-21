@@ -13,8 +13,8 @@
     })
 
     app.post('/sendEmail', (req, res) => {
-        sendEmail('enquiry')
-        sendEmail('admin')
+        sendEmail('enquiry', req.body)
+        sendEmail('admin', req.body)
         res.send('Email sent successfully')
     })
 
